@@ -4,7 +4,7 @@ import Bindings
 main :: IO ()
 main = do
 	(_progName, _args) <- getArgsAndInitialize
-	_window <- createWindow "Hellow World"
+	_window <- createWindow "Hello World"
 	displayCallback $= display
 	reshapeCallback $= Just reshape
 	keyboardMouseCallback $= Just keyboardMouse
